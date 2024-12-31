@@ -7,7 +7,7 @@ html {
 body {
     height: 100vh;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Roboto", serif;;
     display: grid;   
     grid-template-columns: 1fr 4fr; 
     grid-template-rows: 25% 75%;
@@ -38,7 +38,7 @@ a {
 }
 /* HEADER */
 .header {
-    padding: 25px;    
+    padding: 15px 25px;    
     grid-area: header;
     display: grid;
     grid-template-columns: 3.5fr 1.5fr;
@@ -137,5 +137,6 @@ a {
     background-color: #e2e8f0;
     grid-area: main;
 }
+/* Main */
 
 
