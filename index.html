@@ -1,81 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="search">
-            <img src="img/magnifying-glass-9-svgrepo-com.svg" alt="Magnifying Glass Icon">
-            <input type="text">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--haeder-->
+    <header class="header"> 
+      <div class="search">
+        <img
+          src="img/magnifying-glass-9-svgrepo-com.svg"
+          alt="Magnifying Glass Icon"
+        />
+        <input type="text" />
+      </div>
+      <div class="alert">
+        <img          
+          src="img/bell-ringing-01-svgrepo-com.svg"
+          alt="Bell Icon"
+        />
+        <img          
+          src="img/cat-with-wry-smile-svgrepo-com.svg"
+          alt="Cat Avatar"
+        />
+        <p>Morga Oackle</p>
+      </div>
+      <div class="user">
+        <img          
+          src="img/cat-with-wry-smile-svgrepo-com.svg"
+          alt="Cat Avatar"
+        />
+        <div class="text">
+          <p>Hi, there</p>
+          <h2>Morgan Oackley (@morgan)</h2>
         </div>
-        <div class="alert">
-            <img class="bell" src="img/bell-ringing-01-svgrepo-com.svg" alt="Bell Icon">
-            <img class="avatar" src="img/cat-with-wry-smile-svgrepo-com.svg" alt="Cat Avatar">
-            <p>Morga Oackle</p>
-        </div>
-        <div class="user">
-            <img class="avatar" src="img/cat-with-wry-smile-svgrepo-com.svg" alt="Cat Avatar">
-            <div class="text">
-                <p>Hi, there</p>
-                <h2>Morgan Oackley (@morgan)</h2>
-            </div>
-        </div>
-        <div class="btns">
-            <input type="submit" class="btn" value="New"><input type="submit" class="btn" value="Upload"><input type="submit" class="btn" value="Share">
-        </div>
-
+      </div>
+      <div class="btns">
+        <input type="submit" class="btn" value="New"/>
+        <input type="submit" class="btn" value="Upload"/>
+        <input type="submit" class="btn" value="Share"/>
+      </div>
     </header>
+    <!-- end header -->
+    <!-- sidenav -->
     <div class="sidenav">
-        <div class="sidenav__title">
-            <img src="img/dashboard-svgrepo-com.svg" alt="Dashboard Icon">
-            <h1>Dashboard</h1>
-        </div>
-        <ul class="sidenav__links">
-            <li class="link">
-                <img src="img/home-1-svgrepo-com.svg" alt="Home Icon">
-                <a href="">Home</a>
-            </li>
-            <li class="link">
-                <img src="img/profile-image-1348-svgrepo-com.svg" alt="Profile Icon">
-                <a href="">Profile</a>
-            </li>
-            <li class="link">
-                <img src="img/messages-svgrepo-com.svg" alt="Messages Icon">
-                <a href="">Messages</a>
-            </li>
-            <li class="link">
-                <img src="img/history-svgrepo-com.svg" alt="History Icon">
-                <a href="">History</a>
-            </li>
-            <li class="link">
-                <img src="img/task-svgrepo-com.svg" alt="Task Icon">
-                <a href="">Task</a>
-            </li>
-            <li class="link">
-                <img src="img/people-community-svgrepo-com.svg" alt="Communities Icon">
-                <a href="">Communities</a>
-            </li>
-            <li class="link">
-                <img src="img/settings-svgrepo-com.svg" alt="Settings Icon">
-                <a href="">Settings</a>
-            </li>
-            <li class="link">
-                <img src="img/help-svgrepo-com.svg" alt="Support Icon">
-                <a href="">Support</a>
-            </li>
-            <li class="link">
-                <img src="img/protection-privacy-security-firewall-laptop-svgrepo-com.svg" alt="Privacy Icon">
-                <a href="">Privacy</a>
-            </li>
-        </ul>
+      <div class="sidenav__title">
+        <img src="img/dashboard-svgrepo-com.png" alt="Dashboard Icon" />
+        <h1>Dashboard</h1>
+      </div>
+      <ul class="sidenav__links">
+        <li class="link">
+          <img src="img/home-1-svgrepo-com.svg" alt="Home Icon" />
+          <a href="">Home</a>
+        </li>
+        <li class="link">
+          <img
+            src="img/profile-image-1348-svgrepo-com.svg"
+            alt="Profile Icon"
+          />
+          <a href="">Profile</a>
+        </li>
+        <li class="link">
+          <img src="img/messages-svgrepo-com.svg" alt="Messages Icon" />
+          <a href="">Messages</a>
+        </li>
+        <li class="link">
+          <img src="img/history-svgrepo-com.svg" alt="History Icon" />
+          <a href="">History</a>
+        </li>
+        <li class="link">
+          <img src="img/task-svgrepo-com.svg" alt="Task Icon" />
+          <a href="">Task</a>
+        </li>
+        <li class="link">
+          <img
+            src="img/people-community-svgrepo-com.svg"
+            alt="Communities Icon"
+          />
+          <a href="">Communities</a>
+        </li>
+        <li class="link">
+          <img src="img/settings-svgrepo-com.svg" alt="Settings Icon" />
+          <a href="">Settings</a>
+        </li>
+        <li class="link">
+          <img src="img/help-svgrepo-com.svg" alt="Support Icon" />
+          <a href="">Support</a>
+        </li>
+        <li class="link">
+          <img
+            src="img/protection-privacy-security-firewall-laptop-svgrepo-com.svg"
+            alt="Privacy Icon"
+          />
+          <a href="">Privacy</a>
+        </li>
+      </ul>
     </div>
-    <main class="main">Main</main>    
-</body>
+    <!-- end sidenav -->
+    <!-- main --> 
+    <main class="main">
+      <div class="m-left">
+        <h3 class="m-left__title">Your Projects</h3>
+        <section class="cards">
+          <article class="card card--project">
+            <h4>Super Cool Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+          <article class="card card--project">
+            <h4>Less Cool Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+          <article class="card card--project">
+            <h4>Impposible App</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+          <article class="card card--project">
+            <h4>Easy Peasy App</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+          <article class="card card--project">
+            <h4>Add Blocker</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+          <article class="card card--project">
+            <h4>Money Maker</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, dui ut ultricies.</p>
+            <div>
+                <img src="img/star-add-svgrepo-com.svg" alt="Star Icon">
+                <img src="img/eye-plus-svgrepo-com.svg" alt="Eye Icon">
+                <img src="img/fork-svgrepo-com.svg" alt="Fork Icon">
+            </div>
+          </article>
+        </section>
+      </div>
+      <div class="m-rigth">
+        <h3>Announcements</h3>
+        <article class="card announcements">
+          <h5>Site Maintenance</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget
+              ultricies ex. Integer.
+            </p>          
+          <h5>Site Community Share Day</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget
+              ultricies ex. Integer.
+            </p>          
+          <h5>Updated Privacy Policy</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget
+              ultricies ex. Integer.
+            </p>          
+        </article>
+        <h3>Trending</h3>
+        <article class="card trending">
+          <div class="trending__item">
+              <img src="img/girl-svgrepo-com.svg" alt="Tegan image" />
+              <div class="text">
+                <h5>@tegan</h5>
+                <p>Worl Peace Builder</p>
+              </div>
+          </div>
+          <div class="trending__item">
+              <img
+                src="img/cat-with-wry-smile-svgrepo-com.svg"
+                alt="Morgan image"
+              />
+              <div class="text">
+                <h5>@morga</h5>
+                <p>Super Cool Project</p>
+              </div>
+          </div>  
+          <div class="trending__item">
+              <img src="img/penguin-svgrepo-com.svg" alt="Kendal Image" />
+              <div class="text">
+                <h5>@kendal</h5>
+                <p>Life Chating App</p>
+              </div>
+          </div>
+          <div class="trending__item">
+              <img src="img/boy-svgrepo-com.svg" alt="Alex Image" />
+              <div class="text">
+                <h5>@Alex</h5>
+                <p>No Traffic Maker</p>
+              </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <!-- end main -->
+  </body>
 </html>
